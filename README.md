@@ -58,15 +58,6 @@ Baseline system in *END-TO-END BINAURAL SOUND LOCALISATION FROM THE RAW WAVEFORM
 ### Multi-conditional training(MCT)
 
 Each time, 1 reverberant room was selected and using in evaluation, the other 3 reverberant rooms and the anechoic room were used in model training. 
-  <table>
-    <tr>
-      <th>separate_norm</th> <th>overall_norm</th>
-    </tr>
-    <tr>
-      <th> <img src='images/separate_norm_example.png'> </th> <th> <img src='images/overall_norm_example.png'> </th>
-    </tr>
-  </table>
-
 
 ### Evaluation
 
@@ -110,12 +101,8 @@ For room D, model is trained 3 times. Even though similar losses are achieved, t
 
 mean:  3.39	std: 0.07
 
-<img src='example/multi-run/result.png'>s
-
-
-
 ## Main Dependencies
-
+  - python 3
   - tensorflow-1.14
   - pysofa <https://github.com/bingo-todd/pySOFA>
   - BasicTools <https://github.com/bingo-todd/BasicTools>
